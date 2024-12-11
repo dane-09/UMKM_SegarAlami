@@ -90,9 +90,9 @@ class ProdukController extends Controller
             if($produk->gambar){
                 Storage::delete('public/'. $produk->gambar);  // hapus file gambar lama  //
             }
-            $projek->gambar = $request->file('gambar')->store('images', 'public');
+            $produk->gambar = $request->file('gambar')->store('images', 'public');
         }
-        $projek->save();
+        $produk->save();
 
         return redirect()->route('produk.index')->with('success', 'Berita berhasil diperbarui!');
     }
@@ -107,7 +107,7 @@ class ProdukController extends Controller
         if($produk->gambar){
             Storage::delete('public/'. $produk->gambar);  // hapus file gambar  //
         }
-        $berita->delete();
+        $produk->delete();
 
         return redirect()->route('produk.index')->with('error', 'Berita berhasil dihapus!');
     }
