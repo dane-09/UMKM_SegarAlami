@@ -47,7 +47,7 @@ class ProdukController extends Controller
         }
         $produk->save();
 
-        return redirect()->route('produk.index')->with('success', 'Berita berhasil ditambahkan!');
+        return redirect()->route('produk.index')->with('success', 'Produk berhasil ditambahkan!');
     }
 
 
@@ -80,7 +80,6 @@ class ProdukController extends Controller
             'deskripsi' => 'required|string|max:255',
             'gambar' => 'nullable|image|mimes:jpg,jpeg,png,gif,jfif|max:2048',
         ]);
-        $produk = new Produk;
         $produk->nama_produk = $request->nama_produk;
         $produk->harga = $request->harga;
         $produk->deskripsi = $request->deskripsi;
@@ -94,7 +93,7 @@ class ProdukController extends Controller
         }
         $produk->save();
 
-        return redirect()->route('produk.index')->with('success', 'Berita berhasil diperbarui!');
+        return redirect()->route('produk.index')->with('success', 'Produk berhasil diperbarui!');
     }
 
 
@@ -109,7 +108,7 @@ class ProdukController extends Controller
         }
         $produk->delete();
 
-        return redirect()->route('produk.index')->with('error', 'Berita berhasil dihapus!');
+        return redirect()->route('produk.index')->with('error', 'Produk berhasil dihapus!');
     }
 
 }
