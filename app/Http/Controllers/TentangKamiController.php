@@ -46,7 +46,7 @@ class TentangKamiController extends Controller
         }
         $tentangKami->save();
 
-        return redirect()->route('tentangKami.index')->with('success', 'Berita berhasil ditambahkan!');
+        return redirect()->route('tentangKami.index')->with('success', 'About Us berhasil ditambahkan!');
     }
 
     /**
@@ -88,7 +88,7 @@ class TentangKamiController extends Controller
         }
         $tentangKami->save();
 
-        return redirect()->route('tentangKami.index')->with('success', 'About Us berhasil diperbarui!');
+        return redirect()->route('tentangKami.index')->with('success', 'About berhasil diperbarui!');
     }
 
     /**
@@ -96,6 +96,12 @@ class TentangKamiController extends Controller
      */
     public function destroy(tentangKami $tentangKami)
     {
-        //
+        $tentangKami=$tentangKami;
+        if($tentangKami->gambar){
+            Storage::delete('public/'. $tentangKami->gambar);  // hapus file gambar  //
+        }
+        $tentangKami->delete();
+
+        return redirect()->route('tentangKami.index')->with('error', 'About Us berhasil dihapus!');
     }
 }
