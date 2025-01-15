@@ -74,7 +74,7 @@ class InformasiController extends Controller
             'isi_informasi' => 'required|string|max:255',
             'gambar' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
         ]);
-        $informasi = new Informasi;
+
         $informasi->judul = $request->judul;
         $informasi->isi_informasi = $request->isi_informasi;
 
@@ -83,7 +83,7 @@ class InformasiController extends Controller
         }
         $informasi->save();
 
-        return redirect()->route('informasi.index')->with('success', 'Informasi berhasil ditambahkan!');
+        return redirect()->route('informasi.index')->with('success', 'Informasi berhasil diperbarui!');
     }
 
     /**
@@ -97,6 +97,6 @@ class InformasiController extends Controller
         }
         $informasi->delete();
 
-        return redirect()->route('informasi.index')->with('success', 'Informasi berhasil diperbarui!');
+        return redirect()->route('informasi.index')->with('success', 'Informasi berhasil dihapus!');
     }
 }
