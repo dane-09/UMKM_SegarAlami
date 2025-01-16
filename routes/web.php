@@ -13,7 +13,6 @@ use App\Http\Controllers\HomeSection;
 
 
 Route::get('/', [HomeSection::class,'index'])->name('home');
-
 Route::get('/contacts', [ContactSection::class,'index'])->name('contact');
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -28,4 +27,5 @@ Route::resource('pesan_saran', PesanSaranController::class);
 Route::resource('herosection', HerosectionController::class);
 Route::resource('gallery', GalleryController::class);
 Route::resource('contact', ContactController::class);
+Route::resource('service', ServiceController::class);
 require __DIR__.'/auth.php';
