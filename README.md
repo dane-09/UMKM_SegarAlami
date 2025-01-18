@@ -218,7 +218,7 @@ Diagram:![alt text](Gambar/Gallery.png?raw=true)
 
 
 Deskripsi Singkat
-Sistem dapat menampilkan halaman Input data team B3AM dan Admin mengInput data team B3AM.
+Sistem dapat menampilkan halaman gallery dan Admin menginputkan gallery.
 Deskripsi Langkah- langkah:
 1. Sistem akan menampilkan tampilan data gallery.
 2. Admin dapat melihat,menambahkan, dan mengupload gambar dan teks gallery.
