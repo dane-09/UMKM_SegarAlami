@@ -234,16 +234,17 @@ Diagram:
 ![alt text](Gambar/Pengunjung_Web2.png?raw=true)
 
 Deskripsi Singkat 
-Sistem dapat menampilkan halaman company profile yaitu (Home, About Us, Product, Service, Gallery, Contact) dan pengunjung bisa melihat informasi yang terdapat pada website. 
+Sistem dapat menampilkan halaman company profile yaitu (Home, About Us, Product, Service, Gallery, Contact, Ulasan) dan pengunjung bisa melihat informasi dan memberikan ulasan yang terdapat pada website. 
 
 Deskripsi Langkah-Langkah
 1. Sistem akan menampilkan tampilan halaman utama.
-2. Pengunjung dapat melihat tampilan home, about us, produk, service, gallery, contact
+2. Pengunjung dapat melihat tampilan home, about us, produk, service, gallery, contact.
+3. Pengunjung dapat memberikan ulasan.
 
 Xref: Bagian 3.2.7, Pengunjung Mengunjungi Website
 
 ## 2.3 Spesifikasi kebutuhan non-fungsional
-- tabel kebutuhan non-fungsional
+![alt text](Gambar/KNF3.png?raw=true)
 
 | no | deskripsi |
 | ------ | ------ |
