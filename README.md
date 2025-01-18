@@ -53,7 +53,7 @@ Berikut ini fungsi admin yaitu:
 Sistem Segar Alami adalah sebuah sistem yang menyediakan informasi dan product makanan minuman yang diaplikasikan pada website. Terdapat 2 Pengguna yaitu admin dan Customer. Data pada website  dikelola oleh admin dan pengunjung hanya dapat melihat informasi pada website.
 
 **2.1.1 Antarmuka Sistem**
-![alt text](revisi/revisi1.jpg?raw=true)
+![alt text](Gambar/AntarMuka_Sistem.png?raw=true)
 
 Sistem UMKM Segar Alami memiliki 2 pengguna yaitu admin dan Customer. Admin bisa mengelola data Website dan Customer bisa melihat dan mengunjungi website serta memberikan Ulasan.
 
