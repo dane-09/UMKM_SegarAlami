@@ -461,3 +461,23 @@ BAB 3
 3.2 -> Zidane
 
 3.3 -> Zidane
+
+PEMBAGIAN TUGAS PROJECT 
+1. Muhammad Zidane
+● Tampilan Company Profile (Home, About Us, Service, Product, Pesan Saran, Banner, Contact)
+● Tampilan Dashboard Admin
+● Tampilan Login
+● Middleware
+● CRUD Pesan Saran
+
+2. Azka Arifan Harris 
+● CRUD About Us
+● CRUD Produk  
+● Tampilan About Us
+● Tampilan Produk 
+
+3. Zayyandra Rajel Ahsan 
+● CRUD Service
+● CRUD Contact
+● Tampilan Service
+● Tampilan Contact
