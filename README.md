@@ -370,7 +370,7 @@ Salah satu cara mengakses website ini yaitu  admin yang akan mengakses website i
 | Exception Push     |    Tidak Ada    |
 
 ## 3.3 Struktur Detail Kebutuhan Non-Fungsional
-![alt text](Gambar/3.3.png?raw=true)
+![alt text](Gambar/KNF3.png?raw=true)
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada website UMKM Segar Alami terdapat struktur Database yang dijelaskan menggunakan ERD.
 
