@@ -83,7 +83,7 @@ Sistem UMKM Segar Alami memiliki 2 pengguna yaitu admin dan Customer. Admin bisa
 
 
 **2.1.3 Antarmuka perangkat keras**
-![alt text](Image/perangkatKeras.png?raw=true)
+![alt text](Gambar/AntarMuka_PerangkatKeras.png?raw=true)
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Segar Alami yaitu : 
 
 PC / Laptop Untuk menjalankan Aplikasi ini.
