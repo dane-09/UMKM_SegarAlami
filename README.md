@@ -126,7 +126,7 @@ tidak ada
 Use Case: Login
 
 Diagram:
-![alt text](Image/adminLogin.png?raw=true)
+![alt text](Gambar/Login.png?raw=true)
 
 Deskripsi Singkat 
 Admin melakukan login terlebih dahulu sebelum masuk ke tampilan home admin, apabila gagal login akan muncul pesan alert error login.
@@ -145,7 +145,7 @@ Use Case: Input Product
 
 Diagram:
 
-![alt text](Image/2.2.2.png?raw=true)
+![alt text](Gambar/Product.png?raw=true)
 
 Deskripsi Singkat 
 Sistem dapat menampilkan halaman input produk dan Admin menginputkan product.
@@ -163,7 +163,7 @@ Xref: Bagian 3.2.2, Input data Product
 Use Case: Input Service
 
 Diagram:
-![alt text](Image/2.2.3.png?raw=true)
+![alt text](Gambar/Service.png?raw=true)
 
 Deskripsi Singkat
 Sistem dapat menampilkan halaman slider dan Admin menginputkan service.
@@ -180,7 +180,7 @@ Xref: Bagian 3.2.3, Input data Service
 
 Use Case: Input data About Us
 
-Diagram:![alt text](revisi/revisi2.jpg?raw=true)
+Diagram:![alt text](Gambar/About Us.png?raw=true)
 
 
 Deskripsi Singkat
@@ -197,7 +197,7 @@ Xref: Bagian 3.2.3, Input data About Us
 
 Use Case: Input data Contact
 
-Diagram:![alt text](revisi/revisi4.jpg?raw=true)
+Diagram:![alt text](Gambar/Contact.jpg?raw=true)
 
 
 Deskripsi Singkat
@@ -214,7 +214,7 @@ Xref: Bagian 3.2.3, Input data Contact
 
 Use Case: Input data Gallery
 
-Diagram:![alt text](revisi/revisi3.jpg?raw=true)
+Diagram:![alt text](Gambar/Gallery.png?raw=true)
 
 
 Deskripsi Singkat
@@ -233,7 +233,7 @@ Xref: Bagian 3.2.3, Input data Gallery
 Use Case: Mengunjungi website
 
 Diagram:
-![alt text](Image/pengunjungMengunjungiWeb.png?raw=true)
+![alt text](Gambar/Pengunjung_Web.png?raw=true)
 
 Deskripsi Singkat 
 Sistem dapat menampilkan halaman company profile yaitu (Home, About Us, Product, Service, Gallery, Contact) dan pengunjung bisa melihat informasi yang terdapat pada website. 
