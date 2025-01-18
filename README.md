@@ -197,7 +197,7 @@ Xref: Bagian 3.2.3, Input data About Us
 
 Use Case: Input data Contact
 
-Diagram:![alt text](Gambar/Contact.jpg?raw=true)
+Diagram:![alt text](Gambar/Contact.png?raw=true)
 
 
 Deskripsi Singkat
