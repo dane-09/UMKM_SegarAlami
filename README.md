@@ -451,6 +451,7 @@ BAB 2
   2.1.7 -> Azka
   
   2.1.8 -> Zidane
+  
 2.2 semua poin-poin (Zayyan)
 
 BAB 3 
