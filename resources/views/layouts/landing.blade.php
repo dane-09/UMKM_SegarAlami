@@ -33,7 +33,11 @@
 <body>
     @include('components.navbar')
     @yield('content')
+<<<<<<< HEAD
     @include('components.footer',['contact'=>$contact])
+=======
+    @include('components.footer')
+>>>>>>> 0d517a97a973fa312f467932224028c03d0fefaa
 
 
      <!-- JavaScript Libraries -->

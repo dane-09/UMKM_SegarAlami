@@ -13,7 +13,11 @@
                                  <div class="col-lg-8 text-start">
                                      <p class="fs-4 text-white">{{$item->tagline}}</p>
                                      <h1 class="display-1 text-white mb-5 animated slideInRight">{{$item->deskripsi}}</h1>
+<<<<<<< HEAD
                                      <a href="#about"
+=======
+                                     <a href=""
+>>>>>>> 0d517a97a973fa312f467932224028c03d0fefaa
                                          class="btn btn-secondary rounded-pill py-3 px-5 animated slideInRight">Explore
                                          More</a>
                                  </div>

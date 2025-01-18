@@ -175,7 +175,11 @@
         position: relative;
         min-height: 450px;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 0d517a97a973fa312f467932224028c03d0fefaa
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -185,7 +189,11 @@
 }
 
 .page-header {
+<<<<<<< HEAD
     background: url(../img/susus.jpg) center center no-repeat;
+=======
+    background: url(../img/banner.jpg) center center no-repeat;
+>>>>>>> 0d517a97a973fa312f467932224028c03d0fefaa
     background-size: cover;
 }
 
@@ -500,4 +508,8 @@
     color: var(--light);
     letter-spacing: 1px;
     box-shadow: none;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0d517a97a973fa312f467932224028c03d0fefaa
