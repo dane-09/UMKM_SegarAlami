@@ -373,57 +373,63 @@ Salah satu cara mengakses website ini yaitu  admin yang akan mengakses website i
 ## 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ![alt text](Image/3.3.png?raw=true)
 **3.3.1 Logika Struktur Data**
-Struktur data logika pada sistem informasi parenting terdapat struktur Database yang dijelaskan menggunakan ERD.
+Struktur data logika pada website UMKM Segar Alami terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-**Tabel Admin**
+**Tabel Users**
 |Data Item|Tipe Data|Deskripsi|
 |--|--|--|
-|Id_Admin|int|Auto-increment dari Id_Admin|
-|username|varchar|Berisi username admin untuk mengakses sistem|
-|Password|varchar|Berisi password admin untuk mengakses sistem|
-|level|varchar|untuk membedakan level saat login antara admin dan pengunjung|
+|Id|int|Auto-increment dari Id|
+|name|varchar|Berisi username user agar sistem bisa diakses|
+|email|varchar|Berisi email user agar sistem bisa diakses|
+|password|varchar|Berisi password user agar sistem bisa diakses|
 
-**Tabel Artikel**
+**Tabel Product**
 |Data Item|Tipe Data|Deskripsi|
 |--|--|--|
-|id_Artikel|int|Auto-increment dari Id_artikel|
-|gambar|varchar|Berisi gambar didalam artikel sistem|
-|deskripsi|text|Berisi deskripsi artikel sistem|
-|judul|varchar|Berisi judul pada artikel sistem|
-|kategori|varchar|Berisi kategori pada artikel sistem|
+|Id|int|Auto-increment dari Id|
+|tagline|varchar|Berisi sebagai tagline pada sistem product|
+|deskripsi|text|Berisi deskripsi produk pada sistem|
+|gambar|varchar|Berisi gambar produk pada sistem|
 
-**Tabel Kegiatan**
+**Tabel Service**
 |Data Item|Tipe Data|Deskripsi|
 |--|--|--|
-|id_kegiatan|int|Auto-increment dari Id_kegiatan|
-|gambar|varchar|Berisi gambar didalam kegiatan sistem|
-|deskripsi|text|Berisi deskripsi kegiatan sistem|
-|judul|varchar|Berisi judul pada kegiatan sistem|
-|tanggal|varchar|Berisi tanggal pada kegiatan sistem|
+|id|int|Auto-increment dari Id|
+|tagline|varchar|Berisi sebagai tagline service pada sistem|
+|gambar_deskripsi|varchar|Berisi gambar pada bagian deskripsi service pada sistem|
+|deskripsi|varchar|Berisi deskripsi service pada sistem|
+|gambar|varchar|Berisi gambar service pada sistem|
 
-**Tabel about**
+**Tabel About Us**
 |Data Item|Tipe Data|Deskripsi|
 |--|--|--|
-|id_about|int|Auto-increment dari id_about|
-|gambar|varchar|Berisi gambar didalam about sistem|
-|deskripsi|text|Berisi deskripsi about sistem|
+|id|int|Auto-increment dari id|
+|sub_tagline|varchar|Berisi sebagai sub tagline about us pada sistem|
+|tagline|varchar|Berisi sebagai tagline about us pada sistem|
+|deskripsi|varchar|Berisi deskripsi about us pada sistem|
+|gambar|varchar|Berisi gambar about us pada sistem|
 
-**Tabel contact**
+**Tabel Pesan_Saran**
 |Data Item|Tipe Data|Deskripsi|
 |--|--|--|
-|id_contact|int|Auto-increment dari id_contact|
-|judul|varchar|Berisi judul pada contact sistem|
-|isi|text|Berisi isi contact sistem|
+|id|int|Auto-increment dari id|
+|nama|varchar|Berisi nama pesan saran pada sistem|
+|pesan|varchar|Berisi pesan pesan saran pada sistem|
 
-**Tabel team**
+**Tabel Gallery**
 |Data Item|Tipe Data|Deskripsi|
 |--|--|--|
-|id_team|int|Auto-increment dari Id_team|
-|gambar|varchar|Berisi gambar didalam team sistem|
-|nama|text|Berisi nama team sistem|
-|jabatan|varchar|Berisi jabatan pada team sistem|
+|id|int|Auto-increment dari Id|
+|gambar|varchar|Berisi gambar gallery pada sistem|
+|alt_text|varchar|Berisi text gallery pada sistem|
 
-
+**Tabel Contact**
+|Data Item|Tipe Data|Deskripsi|
+|--|--|--|
+|id|int|Auto-increment dari Id|
+|lokasi|varchar|Berisi lokasi contact pada sistem|
+|no|text|Berisi nomor contact pada sistem|
+|email|varchar|Berisi email contact pada sistem|
 
 ## Pembagian tugas
 BAB 1 ->Azka 
@@ -447,12 +453,12 @@ BAB 2
   
   2.1.8 -> Zidane
   
-2.2 semua poin-poin (Zayyan)
+2.2 semua poin-poin -> (Zayyan)
 
 BAB 3 
 
-3.1 Zidane
+3.1 -> Zidane
 
-3.2 Zidane
+3.2 -> Zidane
 
-3.3 Zidane
+3.3 -> Zidane
