@@ -129,7 +129,7 @@ Diagram:
 ![alt text](Image/adminLogin.png?raw=true)
 
 Deskripsi Singkat 
-Admin melakukan login terlebih dahulu sebelum masuk ke tampilan home admin, apabila gagal login akan muncul pesan alert error login. 
+Admin melakukan login terlebih dahulu sebelum masuk ke tampilan home admin, apabila gagal login akan muncul pesan alert error login.
 
 Deskripsi Langkah-Langkah
 1. Admin melakukan login dengan username dan password.
@@ -139,80 +139,80 @@ Deskripsi Langkah-Langkah
 
 Xref: Bagian 3.2.1, Login Admin
 
-**2.2.2 Admin Input Artikel Parenting**
+**2.2.2 Admin Input Product**
 
-Use Case: Input Artikel Parenting
+Use Case: Input Product
 
 Diagram:
 
 ![alt text](Image/2.2.2.png?raw=true)
 
-Deskripsi Singkat
-Admin menginputkan kategori parenting lalu menambahkan judul dan deskripsi sesuain kategori.
+Deskripsi Singkat 
+Sistem dapat menampilkan halaman input produk dan Admin menginputkan product.
 
 Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan input artikel.
-2. Admin Dapat melihat,menambahkan, dan mengupload artikel.
+1. Sistem akan menampilkan tampilan data produk.
+2. Admin dapat melihat,menambahkan, dan mengupload product , judul, deskripsi dan gambar product.
 3. Sistem akan menyimpan ke database.
-4. Jika sudah disimpan sistem akan menampilkan peringatan.
+4. Setelah data disimpan maka akan menampilkan pesan pada layar data berhasil ditambah.
 
-Xref: Bagian 3.2.2, Input data Artikel Parenting
+Xref: Bagian 3.2.2, Input data Product
 
-**2.2.3 Admin Input Dokumentasi kegiatan**
+**2.2.3 Admin Input Service**
 
-Use Case: Input Dokumentasi kegiatan
+Use Case: Input Service
 
 Diagram:
 ![alt text](Image/2.2.3.png?raw=true)
 
 Deskripsi Singkat
-Sistem dapat menampilkan halaman input dokumentasi kegiatan dan Admin menginputkan dokumentasi kegiatan.
+Sistem dapat menampilkan halaman slider dan Admin menginputkan service.
 
 Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan publikasi kegiatan.
-2. Admin dapat melihat,menambahkan, dan mengupload kegiatan.
+1. Sistem akan menampilkan tampilan data service.
+2. Admin dapat melihat,menambahkan, dan mengupload service, .judul, gambar deskripsi, deskripsi, dan gambar service.
 3. Sistem akan menyimpan ke database.
-4. sudah disimpan sistem akan menampilkan peringatan.
+4. Setelah data disimpan maka akan menampilkan pesan pada layar data berhasil ditambah.
 
-Xref: Bagian 3.2.3, Input data Dokumentasi kegiatan
+Xref: Bagian 3.2.3, Input data Service
 
-**2.2.4 Admin Input data tentang B3AM**
+**2.2.4 Admin Input data About Us**
 
-Use Case: Input data tentang B3AM
+Use Case: Input data About Us
 
 Diagram:![alt text](revisi/revisi2.jpg?raw=true)
 
 
 Deskripsi Singkat
-Sistem dapat menampilkan halaman Input data tentang B3AM dan Admin mengInput data tentang B3AM.
+Sistem dapat menampilkan halaman about us dan Admin menginputkan about us.
 Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan data tentang B3AM.
-2. Admin dapat melihat,menambahkan, dan mengupload data tentang B3AM.
+1. Sistem akan menampilkan tampilan data about us.
+2. Admin dapat melihat,menambahkan, dan mengupload sub judul, judul, deskripsi, gambar about us.
 3. Sistem akan menyimpan ke database.
-4. sudah disimpan sistem akan menampilkan peringatan.
+4. Setelah data disimpan maka akan menampilkan pesan pada layar data berhasil ditambah.
+   
+Xref: Bagian 3.2.3, Input data About Us
 
-Xref: Bagian 3.2.3,data tentang B3AM
+**2.2.5 Admin Input data Contact**
 
-**2.2.5 Admin Input data contact B3AM**
-
-Use Case: Input data contact B3AM
+Use Case: Input data Contact
 
 Diagram:![alt text](revisi/revisi4.jpg?raw=true)
 
 
 Deskripsi Singkat
-Sistem dapat menampilkan halaman Input data contact B3AM dan Admin mengInput data contact B3AM.
+Sistem dapat menampilkan halaman contact dan Admin menginputkan contact.
 Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan data contact B3AM.
-2. Admin dapat melihat,menambahkan, dan mengupload data contact B3AM.
+1. Sistem akan menampilkan tampilan data contact.
+2. Admin dapat melihat,menambahkan, dan mengupload  lokasil, nomor dan email contact.
 3. Sistem akan menyimpan ke database.
-4. sudah disimpan sistem akan menampilkan peringatan.
+4. Setelah data disimpan maka akan menampilkan pesan pada layar data berhasil ditambah.
+   
+Xref: Bagian 3.2.3, Input data Contact
 
-Xref: Bagian 3.2.3,data contact B3AM
+**2.2.6 Admin Input data Gallery**
 
-**2.2.6 Admin Input data team B3AM**
-
-Use Case: Input data team B3AM
+Use Case: Input data Gallery
 
 Diagram:![alt text](revisi/revisi3.jpg?raw=true)
 
@@ -220,15 +220,15 @@ Diagram:![alt text](revisi/revisi3.jpg?raw=true)
 Deskripsi Singkat
 Sistem dapat menampilkan halaman Input data team B3AM dan Admin mengInput data team B3AM.
 Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan data team B3AM.
-2. Admin dapat melihat,menambahkan, dan mengupload data team B3AM.
+1. Sistem akan menampilkan tampilan data gallery.
+2. Admin dapat melihat,menambahkan, dan mengupload gambar dan teks gallery.
 3. Sistem akan menyimpan ke database.
-4. sudah disimpan sistem akan menampilkan peringatan.
+4. Setelah data disimpan maka akan menampilkan pesan pada layar data berhasil ditambah.
 
-Xref: Bagian 3.2.3,data team B3AM
+Xref: Bagian 3.2.3, Input data Gallery
 
 
-**2.2.7 pengunjung Mengunjungi website**
+**2.2.7 Pengunjung Mengunjungi website**
 
 Use Case: Mengunjungi website
 
@@ -236,14 +236,13 @@ Diagram:
 ![alt text](Image/pengunjungMengunjungiWeb.png?raw=true)
 
 Deskripsi Singkat 
-pengunjung mengunjungi website dan melihat informasi yang ada pada website seperti informasi seputar website serta informasi parenting yang telah tersedia, pengunjung juga dapat memberikan komentar pada konten parenting yang tersedia 
+Sistem dapat menampilkan halaman company profile yaitu (Home, About Us, Product, Service, Gallery, Contact) dan pengunjung bisa melihat informasi yang terdapat pada website. 
 
 Deskripsi Langkah-Langkah
-1. Sistem akan menampilkan halaman-halaman konten.
-2. pengunjung melihat informasi yang ada pada website seperti informasi seputar website atau informasi parenting serta juga dapat memberikan komentar pada konten parenting yang tersedia 
-3. pengunjung dapat mengklik tombol kembali ke halaman sebelumnya jika ingin keluar pada halaman konten yang telah dilihat.
+1. Sistem akan menampilkan tampilan halaman utama.
+2. Pengunjung dapat melihat tampilan home, about us, produk, service, gallery, contact
 
-Xref: Bagian 3.2.7, Login pengunjung
+Xref: Bagian 3.2.7, Pengunjung Mengunjungi Website
 
 ## 2.3 Spesifikasi kebutuhan non-fungsional
 - tabel kebutuhan non-fungsional
@@ -254,7 +253,7 @@ Xref: Bagian 3.2.7, Login pengunjung
 |     2   |   Perangkat Lunak dapat dipakai di semua platofrm OS ( Admin, pengunjung )     |
 
 ## 2.4 Karakteristik Pengguna
-Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem dan dihubungkan dengan hak akses atau level autentikasi.
+Pengguna berinteraksi langsung dengan website, dimulai dari melihat tampilan company profile, dan  untuk admin bisa melakukan login untuk mengatur semua data-data pada UMKM Segar Alami dengan (CRUD).
 
 ## 2.5 Batasan-batasan
 tidak ada
