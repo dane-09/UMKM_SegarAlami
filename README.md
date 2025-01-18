@@ -244,7 +244,7 @@ Deskripsi Langkah-Langkah
 Xref: Bagian 3.2.7, Pengunjung Mengunjungi Website
 
 ## 2.3 Spesifikasi kebutuhan non-fungsional
-![alt text](Gambar/KNF3.png?raw=true)
+● Tabel Kebutuhan non fungsional
 
 | no | deskripsi |
 | ------ | ------ |
