@@ -115,7 +115,7 @@ tidak ada
 | View      |   Digunakan untuk menampilkan data     |
 | Simpan      |     Digunakan untuk menyimpan data   |
 
-**2.1.1 Kebutuhan adaptasi**
+**2.1.8 Kebutuhan adaptasi**
 
 tidak ada
 
@@ -450,9 +450,8 @@ BAB 2
   
   2.1.7 -> Azka
   
-  2.1.8 -> Azka
-
-2.2 semua poin-poin (nindy)
+  2.1.8 -> Zidane
+2.2 semua poin-poin (Zayyan)
 
 BAB 3 
 
