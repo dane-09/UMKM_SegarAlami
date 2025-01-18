@@ -467,14 +467,18 @@ PEMBAGIAN TUGAS PROJECT
 ● Tampilan Company Profile (Home, About Us, Service, Product, Pesan Saran, Banner, Contact)
 ● Tampilan Dashboard Admin
 ● Tampilan Login
+● Tampilan Gallery
 ● Middleware
 ● CRUD Pesan Saran
+● CRUD Banner
+● CRUD Gallery
+● CRUD Hero Section
 
 2. Azka Arifan Harris 
 ● CRUD About Us
 ● CRUD Produk  
 ● Tampilan About Us
-● Tampilan Produk 
+● Tampilan Product 
 
 3. Zayyandra Rajel Ahsan 
 ● CRUD Service
