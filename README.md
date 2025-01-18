@@ -432,26 +432,26 @@ Struktur data logika pada sistem informasi parenting terdapat struktur Database 
 
 
 ## Pembagian tugas
-BAB 1 ->Nindy
+BAB 1 ->Azka 
 
 BAB 2 
 2.1
   
-  2.1.1 -> Nindy
+  2.1.1 -> Azka
   
-  2.1.2 -> Nindy
+  2.1.2 -> Zidane
   
-  2.1.3 -> Ariyan
+  2.1.3 -> Azka
   
-  2.1.4 -> Ariyan
+  2.1.4 -> Azka
  
-  2.1.5 -> Ariyan
+  2.1.5 -> Azka
   
-  2.1.6 -> Raditya
+  2.1.6 -> Azka
   
-  2.1.7 -> Raditya
+  2.1.7 -> Azka
   
-  2.1.8 -> Raditya
+  2.1.8 -> Azka
 
 2.2 semua poin-poin (nindy)
 
