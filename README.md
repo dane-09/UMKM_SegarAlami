@@ -63,7 +63,7 @@ Sistem UMKM Segar Alami memiliki 2 pengguna yaitu admin dan Customer. Admin bisa
 **Halaman Admin**
 |  |  |
 |--|--|
-| ![alt text](Gambar/login.jpg?raw=true) Ini merupakan halaman login admin diminta untuk mengisi username dan password.| ![alt text](Gambar/Dashboard_SegarAlami.jpg?raw=true) Ini merupakan halaman dashboard admin jika  admin sudah melakukan login.
+| ![alt text](Gambar/login.jpg?raw=true) Ini merupakan halaman login admin diminta untuk mengisi username dan password.| ![alt text](Gambar/Dashboard_Fix.jpg?raw=true) Ini merupakan halaman dashboard admin jika  admin sudah melakukan login.
 |  |  |
 | ![alt text](Gambar/Dashboardd.jpg?raw=true) Pada halaman admin akan terdapat halaman untuk mengelola data Product,namun tidak hanya data product tapi admin juga dapat mengelola data AboutUs,Data Service,Data Gallery,Data Contact,dan Pesan_Saran.| ![alt text](Gambar/DashboardInput.jpg?raw=true) Pada halaman mengelola data product,admin juga dapat menambahkan data product,begitu juga dengan pengelolaan data dihalaman lainnya.
 |  |  |
