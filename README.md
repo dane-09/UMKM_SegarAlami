@@ -67,7 +67,7 @@ Sistem UMKM Segar Alami memiliki 2 pengguna yaitu admin dan Customer. Admin bisa
 |  |  |
 | ![alt text](Gambar/Dashboardd.jpg?raw=true) Pada halaman admin akan terdapat halaman untuk mengelola data Product,namun tidak hanya data product tapi admin juga dapat mengelola data AboutUs,Data Service,Data Gallery,Data Contact,dan Pesan_Saran.| ![alt text](Gambar/DashboardInput.jpg?raw=true) Pada halaman mengelola data product,admin juga dapat menambahkan data product,begitu juga dengan pengelolaan data dihalaman lainnya.
 |  |  |
-| ![alt text](Gambar/Dashboardd.png?raw=true) Pada halaman mengelola data product juga terdapat aksi untuk mengedit data product..|![alt text](Gambar/Dashboardd.png?raw=true) Selain menambahkan dan mengedit pada halaman data product,admin juga dapat menghapus data product.
+| ![alt text](Gambar/Dashboardd.jpg?raw=true) Pada halaman mengelola data product juga terdapat aksi untuk mengedit data product..|![alt text](Gambar/Dashboardd.jpg?raw=true) Selain menambahkan dan mengedit pada halaman data product,admin juga dapat menghapus data product.
 
 
 **Halaman User**
