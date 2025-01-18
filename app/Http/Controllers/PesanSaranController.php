@@ -2,18 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\PesanSaran;
+use App\Models\Pesansaran;
 use Illuminate\Http\Request;
 
-class PesanSaranController extends Controller
+class PesansaranController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $pesanSaran= PesanSaran::all();
-        return view('pesansaran.index',compact('pesanSaran'));
+        $pesansaran = Pesansaran::all();
+        return view('pesansaran.index', compact('pesansaran'));
     }
 
     /**
@@ -21,7 +21,7 @@ class PesanSaranController extends Controller
      */
     public function create()
     {
-
+        return view('pesansaran.create');
     }
 
     /**
@@ -30,63 +30,61 @@ class PesanSaranController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'nama'  => 'nullable|string|max:255',
-            'pesan' => 'required|string',
+            'nama'    => 'nullable|string|max:255',
+            'subject' => 'required|string|max:255',
+            'pesan'   => 'required|string',
         ]);
-        $pesanSaran = new pesanSaran;
-        $pesanSaran->nama = $request->nama;
-        $pesanSaran->pesan = $request->pesan;
 
-        $pesanSaran->save();
+        $pesansaran = new Pesansaran;
+        $pesansaran->nama = $request->nama;
+        $pesansaran->subject = $request->subject;
+        $pesansaran->pesan = $request->pesan;
+        $pesansaran->save();
 
-
-        return redirect()->route('pesan_saran.index')->with('success', 'Pesan saran berhasil dikirim!');
-
+        return redirect('/contacts')->with('success', 'Pesan Saran berhasil ditambahkan!');
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(PesanSaran $pesanSaran)
+    public function show(Pesansaran $pesansaran)
     {
-        //
+        return view('pesansaran.show', compact('pesansaran'));
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(PesanSaran $pesanSaran)
+    public function edit(Pesansaran $pesansaran)
     {
-        return view('pesansaran.edit',compact('pesanSaran'));
+        return view('pesansaran.edit', compact('pesansaran'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, PesanSaran $pesanSaran)
+    public function update(Request $request, Pesansaran $pesansaran)
     {
         $request->validate([
-            'nama'  => 'required|string|max:255',
-            'pesan' => 'required|string',
+            'nama'    => 'nullable|string|max:255',
+            'subject' => 'required|string|max:255',
+            'pesan'   => 'required|string',
         ]);
-        $pesanSaran->nama = $request->nama;
-        $pesanSaran->pesan = $request->pesan;
 
-        $pesanSaran->save();
+        $pesansaran->nama = $request->nama;
+        $pesansaran->subject = $request->subject;
+        $pesansaran->pesan = $request->pesan;
+        $pesansaran->save();
 
-        return redirect()->route('pesan_saran.index')->with('sucses', 'pesan saran berhasil diupdate');
-
-
-
+        return redirect()->route('pesansaran.index')->with('success', 'Pesan Saran berhasil diupdate!');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(PesanSaran $pesanSaran)
+    public function destroy(Pesansaran $pesansaran)
     {
-        $pesanSaran->delete();
-        return redirect()->route('pesan_saran.index')->with('success', 'PesanSaran berhasil dihapus!');
-
+        $pesansaran->delete();
+        return redirect()->route('pesansaran.index')->with('success', 'Pesan Saran berhasil dihapus!');
     }
 }
