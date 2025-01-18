@@ -120,7 +120,7 @@ tidak ada
 tidak ada
 
 ## 2.2 Spesifikasi kebutuhan fungsional
-![alt text](Image/2.2.png?raw=true)
+![alt text](Gambar/Fungsional.drawio.png?raw=true)
 **2.2.1 Admin Login**
 
 Use Case: Login
