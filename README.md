@@ -63,23 +63,21 @@ Sistem UMKM Segar Alami memiliki 2 pengguna yaitu admin dan Customer. Admin bisa
 **Halaman Admin**
 |  |  |
 |--|--|
-| ![alt text](revisi/loginAdmin.png?raw=true) halaman login admin diminta untuk mengisi username dan password.| ![alt text](revisi/Dashboard.png?raw=true) Setelah login admin akan masuk ke tampilan Dashboard admin.
+| ![alt text](Gambar/login.jpg?raw=true) Ini merupakan halaman login admin diminta untuk mengisi username dan password.| ![alt text](Gambar/Dashboard_SegarAlami.jpg?raw=true) Ini merupakan halaman dashboard admin jika  admin sudah melakukan login.
 |  |  |
-| ![alt text](revisi/DataKegiatan.png?raw=true) Pada halaman admin akan terdapat halaman unutk mengelola data kegiatan, namun tidak hanya dat kegiatan tapi admin juga dapat mengelola data artikel, data kontak, data about dan data team dengan tamnpilan yang sama di halaman yang berbeda.| ![alt text](revisi/TambahDataKegiatan.png?raw=true) Pada halaman mengelola data kegiatan, admin juga dapat menambahkan data kegiatan, begitu juga dengan pengelolaan data di tabel lainnya.
+| ![alt text](Gambar/Dashboardd.jpg?raw=true) Pada halaman admin akan terdapat halaman untuk mengelola data Product,namun tidak hanya data product tapi admin juga dapat mengelola data AboutUs,Data Service,Data Gallery,Data Contact,dan Pesan_Saran.| ![alt text](Gambar/DashboardInput.jpg?raw=true) Pada halaman mengelola data product,admin juga dapat menambahkan data product,begitu juga dengan pengelolaan data dihalaman lainnya.
 |  |  |
-| ![alt text](revisi/DataKegiatan.png?raw=true) Pada halaman mengelola data kegiatan juga terdapat aksi untuk mengedit data kegiatan.|![alt text](revisi/DataKegiatan.png?raw=true) Pada halaman mengelola data kegiatan, selain menambahkan dan mengedit, admin juga dapat menghapus data kegiatan yang mana ketika button hapus di klik akan muncul pop up untuk memastikan admin benar-benar ingin menghapus atau tidak.
+| ![alt text](Gambar/Dashboardd.png?raw=true) Pada halaman mengelola data product juga terdapat aksi untuk mengedit data product..|![alt text](Gambar/Dashboardd.png?raw=true) Selain menambahkan dan mengedit pada halaman data product,admin juga dapat menghapus data product.
 
 
 **Halaman User**
 |  |  |
 |--|--|
-| ![alt text](revisi/dashboardUser.png) Pada halaman pengunjung terdapat beranda yang berisi tampilan scrolling yang berisi seluruh konten seperti tampilan home, kegiatan, artikel about ,team dan contact.|![alt text](revisi/Kegiatan.png?raw=true) Pada halaman pengunjung terdapat halaman kegiatan yang berisi judul, gambar, tanggal dan deskripsi kegiatan.
+| ![alt text](Gambar/Web_Scrolling.png) Pada halaman pengunjung terdapat beranda yang berisi tampilan scrolling yang berisi seluruh konten seperti Home,About Us,Services,Products,Contacts.|![alt text](Gambar/AbooutUs.jpg?raw=true) Pada Tampilan About Us terdapat Subjudul,judul,deskripsi dan gambar.
 |  |  |
-| ![alt text](revisi/detailKegiatan.png?raw=true) Pada halaman pengunjung terdapat halaman lanjutan Kegiatan, jika pengunjung telah mengklik satu kegiatan yang akan dilihat, maka pada halaman ini akan tampil deskripsi dari kegiatan tersebut.|![alt text](revisi/artikel.png?raw=true) Pada halaman pengunjung terdapat halaman artikel yang berisi cover dan deskripsi singkat mengenai artikel.
+| ![alt text](Gambar/galleryy.jpg?raw=true) Pada Tampilan Gallery terdapat judul,deskripsi dan gambar.|![alt text](Gambar/Prroduct.jpg?raw=true) Pada Tampilan Product terdapat Subjudul, judul,deskripsi dan gambar.
 |  |  |
-| ![alt text](revisi/Detailartikel.png?raw=true) Pada halaman pengunjung terdapat halaman lanjutan Artikel jika pengunjung telah mengklik satu judul yang akan dibaca, maka pada halaman ini akan tampil deskripsi dari artikel tersebut, pada halaman ini pengunjung dapat meninggalkan komentar.|![alt text](revisi/tentang.png?raw=true) Pada halaman pengunjung terdapat halaman about yang berisi informasi website seputar pengelola.
-|  |  |
-| ![alt text](revisi/kontak.png?raw=true) Pada halaman pengunjung terdapat halaman about yang berisi informasi website seputar Alamat dan Contact Person.|![alt text](revisi/team.png?raw=true) Pada halaman pengunjung terdapat halaman team yang berisi team dari dinas pemberdayaan perempuan dan Perlindungan anak masyarakat kota pekanbaru.
+| ![alt text](Gambar/Conntact.jpg?raw=true) Tampilan Contact terdapat Subjudul,judul,nama,deskripsi,alamat,telepone,email dan map.
 
 
 **2.1.3 Antarmuka perangkat keras**
@@ -449,11 +447,11 @@ BAB 2
   
   2.1.6 -> Azka
   
-  2.1.7 -> Azka
+  2.1.7 -> Zidane
   
   2.1.8 -> Zidane
   
-2.2 semua poin-poin -> (Zayyan)
+2.2 - 2.7 -> (Zayyan)
 
 BAB 3 
 
