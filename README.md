@@ -1,4 +1,4 @@
-![alt text](Gambar/cover_laporan.jpg?raw=true)
+![alt text](Gambar/cover_laporan.png?raw=true)
 
 ## BAB I Pendahuluan
 
