@@ -231,7 +231,7 @@ Xref: Bagian 3.2.3, Input data Gallery
 Use Case: Mengunjungi website
 
 Diagram:
-![alt text](Gambar/Pengunjung_Web.png?raw=true)
+![alt text](Gambar/Pengunjung_Web2.png?raw=true)
 
 Deskripsi Singkat 
 Sistem dapat menampilkan halaman company profile yaitu (Home, About Us, Product, Service, Gallery, Contact) dan pengunjung bisa melihat informasi yang terdapat pada website. 
