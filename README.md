@@ -48,6 +48,7 @@ Berikut ini fungsi admin yaitu:
 - CRUD  Contact(Input,Edit, Delete)
 - CRUD Services( Input,Edit,Delete)
 - CRUD Gallery(Input,Edit,Delete)
+- CRUD Pesan Saran(Input,Edit,Delete)
 
 ## 2.1 Perspektif produk
 Sistem Segar Alami adalah sebuah sistem yang menyediakan informasi dan product makanan minuman yang diaplikasikan pada website. Terdapat 2 Pengguna yaitu admin dan Customer. Data pada website  dikelola oleh admin dan pengunjung hanya dapat melihat informasi pada website.
