@@ -179,7 +179,8 @@ Xref: Bagian 3.2.3, Input data Service
 
 Use Case: Input data About Us
 
-Diagram:![alt text](Gambar/About Us.png?raw=true)
+Diagram:
+![alt text](Gambar/About Us.png?raw=true)
 
 
 Deskripsi Singkat
