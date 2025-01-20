@@ -356,18 +356,32 @@ Salah satu cara mengakses website ini yaitu  admin yang akan mengakses website i
 | Post Condition     |  Admin dapat menginputkan gallery seperti gambar dan teks gallery.        |
 | Exception Push     | Tidak Ada        |
 
-**3.2.6 Pengunjung Mengunjungi Website**
+**3.2.7 Pengunjung Mengunjungi Website**
 
 | Nama Fungsi        |    Pengunjung Mengunjungi Website             |
 | ------------------- | ---------------------------------- |
 | Xref               | Bagian 2.2.8 Pengunjung Mengunjungi Website             |
 | Trigger            |Pengunjung dapat mengunjungi website, melihat informasi  dan data produk makanan minuman yang ada pada website Segar Alami yang telah ditampilkan pada website. |
 | Precondition       |Pengunjung Mengunjungi website |
-| Basic Path         | 1. Sistem akan menampilkan halaman-halaman konten. |
-|                    |  2.pengunjung melihat informasi yang ada pada website seperti informasi seputar website atau informasi parenting serta juga dapat memberikan komentar pada konten parenting yang tersedia    |
-|                    | 3.pengunjung dapat mengklik tombol kembali ke halaman sebelumnya jika ingin keluar pada halaman konten yang telah dilihat.    |
+| Basic Path         | 1. Sistem akan menampilkan halaman halaman home. |
+|                    |  2.Pengunjung melihat informasi yang ada pada website dan juga dapat memberikan testimoni pada website yang tersedia.   |
+|                    | 3.Pengunjung dapat mengklik tombol kembali ke halaman sebelumnya jika ingin keluar pada halaman konten yang telah dilihat.    |
 | Alternative        |   Tidak Ada     |
-| Post Condition     |   pengunjung mengunjungi website dan melihat informasi yang ada pada website     |
+| Post Condition     |   Pengunjung mengunjungi website dan melihat informasi yang ada pada website.     |
+| Exception Push     |    Tidak Ada    |
+
+**3.2.8 Pengunjung Mengunjungi Pesan Saran**
+
+| Nama Fungsi        |    Pengunjung Mengunjungi Website             |
+| ------------------- | ---------------------------------- |
+| Xref               | Bagian 2.2.8 Pengunjung Mengunjungi Pesan Saran             |
+| Trigger            |Pengunjung dapat mengunjungi halaman pesan saran pada website, menambah pesan saran yang ada pada website Segar Alami jika pelanggan ingin memberikan pesan saran. |
+| Precondition       |Pengunjung Mengunjungi website |
+| Basic Path         | 1. Sistem akan menampilkan halaman halaman home. |
+|                    |  2.Pengunjung melihat halaman pesan saran yang ada pada website dan juga dapat memberikan pesan saran pada website yang tersedia.   |
+|                    | 3.Pengunjung dapat mengklik tombol beri masukan jika ingin mengirim pesan saran yang telah dibuat sebelumnya untuk mengirim ke website UMKM Segar Alami.    |
+| Alternative        |   Tidak Ada     |
+| Post Condition     |   Pengunjung mengunjungi website dan melihat halaman pesan saran serta dapat mengirim pesan saran  yang ada pada halaman website.     |
 | Exception Push     |    Tidak Ada    |
 
 ## 3.3 Struktur Detail Kebutuhan Non-Fungsional
