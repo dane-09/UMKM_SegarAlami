@@ -373,7 +373,7 @@ Salah satu cara mengakses website ini yaitu  admin yang akan mengakses website i
 
 **3.2.8 Pengunjung Mengunjungi Pesan Saran**
 
-| Nama Fungsi        |    Pengunjung Mengunjungi Website             |
+| Nama Fungsi        |    Pengunjung Mengunjungi Pesan Saran             |
 | ------------------- | ---------------------------------- |
 | Xref               | Bagian 2.2.8 Pengunjung Mengunjungi Pesan Saran             |
 | Trigger            |Pengunjung dapat mengunjungi halaman pesan saran pada website, menambah pesan saran yang ada pada website Segar Alami jika pelanggan ingin memberikan pesan saran. |
